@@ -24,8 +24,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/peregrine/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
     vendor/motorola/peregrine/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
     vendor/motorola/peregrine/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
-    vendor/motorola/peregrine/proprietary/etc/firmware/aps-Falc-01300000-0130-falcon.tdat:system/etc/firmware/aps-Falc-01300000-0130-falcon.tdat \
-    vendor/motorola/peregrine/proprietary/etc/firmware/synaptics-s2316-13091704-175833-falcon.tdat:system/etc/firmware/synaptics-s2316-13091704-175833-falcon.tdat \
+    vendor/motorola/peregrine/proprietary/etc/firmware/aps-Falc-01300000-0130-falcon.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/aps-Falc-01300000-0130-falcon.tdat \
+    vendor/motorola/peregrine/proprietary/etc/firmware/synaptics-s2316-13091704-175833-falcon.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-s2316-13091704-175833-falcon.tdat \
     vendor/motorola/peregrine/proprietary/lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.vendor.msm8226.so \
     vendor/motorola/peregrine/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/motorola/peregrine/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
